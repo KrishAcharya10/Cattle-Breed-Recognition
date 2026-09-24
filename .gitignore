@@ -1,0 +1,17 @@
+# Virtual environment
+env/
+
+# Trained models (large binaries - retrain via cow_sih.py, or distribute separately)
+*.h5
+*.keras
+
+# Datasets
+data/
+raw/
+
+# Python
+__pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/
